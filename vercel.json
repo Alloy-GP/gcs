@@ -1,5 +1,6 @@
 {
   "crons": [
+    { "path": "/api/form-health", "schedule": "0 13 * * *" },
     { "path": "/api/cron/whatconverts-sync", "schedule": "0 8 * * *" }
   ],
   "headers": [
